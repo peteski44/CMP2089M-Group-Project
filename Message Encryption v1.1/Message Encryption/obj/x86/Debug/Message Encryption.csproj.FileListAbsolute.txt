@@ -29,3 +29,12 @@ E:\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.c
 E:\Message Encryption v1.1\Message Encryption\bin\Debug\Message Encryption.exe
 E:\Message Encryption v1.1\Message Encryption\bin\Debug\Message Encryption.pdb
 E:\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message_Encryption.LoginBox.resources
+C:\Users\James\Desktop\CMP2089M-Group-Project\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.exe
+C:\Users\James\Desktop\CMP2089M-Group-Project\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.pdb
+C:\Users\James\Desktop\CMP2089M-Group-Project\Message Encryption v1.1\Message Encryption\bin\Debug\Message Encryption.exe
+C:\Users\James\Desktop\CMP2089M-Group-Project\Message Encryption v1.1\Message Encryption\bin\Debug\Message Encryption.pdb
+C:\Users\James\Desktop\CMP2089M-Group-Project\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.csprojResolveAssemblyReference.cache
+C:\Users\James\Desktop\CMP2089M-Group-Project\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message_Encryption.encryptionWindow.resources
+C:\Users\James\Desktop\CMP2089M-Group-Project\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message_Encryption.LoginBox.resources
+C:\Users\James\Desktop\CMP2089M-Group-Project\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message_Encryption.Properties.Resources.resources
+C:\Users\James\Desktop\CMP2089M-Group-Project\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.csproj.GenerateResource.Cache
