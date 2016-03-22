@@ -15,7 +15,7 @@ namespace Message_Encryption
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new encryptionWindow());
+            Application.Run(new LoginBox());
         }
     }
 }
