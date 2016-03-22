@@ -32,19 +32,16 @@
             this.passWord = new System.Windows.Forms.Label();
             this.confirmLogin = new System.Windows.Forms.Button();
             this.userName = new System.Windows.Forms.Label();
-            this.userNameBox = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.newUser = new System.Windows.Forms.Button();
-            this.programExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // passWordBox
             // 
             this.passWordBox.Location = new System.Drawing.Point(100, 85);
             this.passWordBox.Name = "passWordBox";
-            this.passWordBox.PasswordChar = '*';
             this.passWordBox.Size = new System.Drawing.Size(172, 20);
             this.passWordBox.TabIndex = 0;
-            this.passWordBox.TextChanged += new System.EventHandler(this.passWordBox_TextChanged);
             // 
             // passWord
             // 
@@ -63,7 +60,6 @@
             this.confirmLogin.TabIndex = 2;
             this.confirmLogin.Text = "Confirm";
             this.confirmLogin.UseVisualStyleBackColor = true;
-            this.confirmLogin.Click += new System.EventHandler(this.confirmLogin_Click);
             // 
             // userName
             // 
@@ -74,13 +70,12 @@
             this.userName.TabIndex = 3;
             this.userName.Text = "Enter Username";
             // 
-            // userNameBox
+            // textBox1
             // 
-            this.userNameBox.Location = new System.Drawing.Point(101, 60);
-            this.userNameBox.Name = "userNameBox";
-            this.userNameBox.Size = new System.Drawing.Size(171, 20);
-            this.userNameBox.TabIndex = 4;
-            this.userNameBox.TextChanged += new System.EventHandler(this.userNameBox_TextChanged);
+            this.textBox1.Location = new System.Drawing.Point(101, 60);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(171, 20);
+            this.textBox1.TabIndex = 4;
             // 
             // newUser
             // 
@@ -90,26 +85,14 @@
             this.newUser.TabIndex = 5;
             this.newUser.Text = "New User";
             this.newUser.UseVisualStyleBackColor = true;
-            this.newUser.Click += new System.EventHandler(this.newUser_Click);
-            // 
-            // programExit
-            // 
-            this.programExit.Location = new System.Drawing.Point(199, 188);
-            this.programExit.Name = "programExit";
-            this.programExit.Size = new System.Drawing.Size(73, 28);
-            this.programExit.TabIndex = 6;
-            this.programExit.Text = "Exit";
-            this.programExit.UseVisualStyleBackColor = true;
-            this.programExit.Click += new System.EventHandler(this.programExit_Click);
             // 
             // LoginBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(306, 262);
-            this.Controls.Add(this.programExit);
             this.Controls.Add(this.newUser);
-            this.Controls.Add(this.userNameBox);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.userName);
             this.Controls.Add(this.confirmLogin);
             this.Controls.Add(this.passWord);
@@ -128,8 +111,7 @@
         private System.Windows.Forms.Label passWord;
         private System.Windows.Forms.Button confirmLogin;
         private System.Windows.Forms.Label userName;
-        private System.Windows.Forms.TextBox userNameBox;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button newUser;
-        private System.Windows.Forms.Button programExit;
     }
 }

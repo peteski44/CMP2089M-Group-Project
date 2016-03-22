@@ -16,37 +16,6 @@ namespace Message_Encryption
             InitializeComponent();
         }
 
-        NewUserBox programEntry = new NewUserBox();
-
-        private void newUser_Click(object sender, EventArgs e)
-        {
-            programEntry.Show();
-        }
-
-        encryptionWindow mainProgram = new encryptionWindow();
-
-        private void confirmLogin_Click(object sender, EventArgs e)
-        {
-            mainProgram.Show();  
-        }
-
-        
-
-        private void passWordBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void userNameBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void programExit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
         
     }
 }
