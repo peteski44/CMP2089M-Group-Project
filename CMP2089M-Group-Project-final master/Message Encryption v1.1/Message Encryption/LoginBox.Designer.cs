@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.passWordBox = new System.Windows.Forms.TextBox();
+            this.passwordBox = new System.Windows.Forms.TextBox();
             this.passWord = new System.Windows.Forms.Label();
             this.confirmLogin = new System.Windows.Forms.Button();
             this.userName = new System.Windows.Forms.Label();
@@ -37,14 +37,14 @@
             this.programExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // passWordBox
+            // passwordBox
             // 
-            this.passWordBox.Location = new System.Drawing.Point(100, 85);
-            this.passWordBox.Name = "passWordBox";
-            this.passWordBox.PasswordChar = '*';
-            this.passWordBox.Size = new System.Drawing.Size(172, 20);
-            this.passWordBox.TabIndex = 0;
-            this.passWordBox.TextChanged += new System.EventHandler(this.passWordBox_TextChanged);
+            this.passwordBox.Location = new System.Drawing.Point(100, 85);
+            this.passwordBox.Name = "passwordBox";
+            this.passwordBox.PasswordChar = '*';
+            this.passwordBox.Size = new System.Drawing.Size(172, 20);
+            this.passwordBox.TabIndex = 0;
+            this.passwordBox.TextChanged += new System.EventHandler(this.passwordBox_TextChanged);
             // 
             // passWord
             // 
@@ -113,7 +113,7 @@
             this.Controls.Add(this.userName);
             this.Controls.Add(this.confirmLogin);
             this.Controls.Add(this.passWord);
-            this.Controls.Add(this.passWordBox);
+            this.Controls.Add(this.passwordBox);
             this.Name = "LoginBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginBox";
@@ -124,7 +124,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox passWordBox;
+        private System.Windows.Forms.TextBox passwordBox;
         private System.Windows.Forms.Label passWord;
         private System.Windows.Forms.Button confirmLogin;
         private System.Windows.Forms.Label userName;

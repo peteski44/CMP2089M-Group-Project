@@ -27,26 +27,39 @@ namespace Message_Encryption
 
         private void confirmLogin_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            mainProgram.Show();  
+            String username = userNameBox.Text;
+            String password = passwordBox.Text;
+
+            if ((String.IsNullOrWhiteSpace(userNameBox.Text.Trim())) || (String.IsNullOrWhiteSpace(passwordBox.Text.Trim())))
+            {
+                MessageBox.Show("Please enter your username and password");
+            }
+
+            else
+            {
+                this.Hide();
+                mainProgram.Show();
+            }
         }
 
-        
-
-        private void passWordBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+                
 
         private void userNameBox_TextChanged(object sender, EventArgs e)
         {
 
         }
 
+        private void passwordBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        
         private void programExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+        
 
         
     }
