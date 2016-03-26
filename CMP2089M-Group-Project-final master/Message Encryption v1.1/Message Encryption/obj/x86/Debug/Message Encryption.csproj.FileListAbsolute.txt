@@ -34,3 +34,12 @@ C:\Users\James\Desktop\CMP2089M-Group-Project-master\Message Encryption v1.1\Mes
 C:\Users\James\Desktop\CMP2089M-Group-Project-master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.pdb
 E:\CMP2089M - Group Project\CMP2089M-Group-Project-final master v1.0\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.exe
 E:\CMP2089M - Group Project\CMP2089M-Group-Project-final master v1.0\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.pdb
+C:\Users\user\Documents\Documents\HNC Computing\CMP2089M Group Project\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.exe
+C:\Users\user\Documents\Documents\HNC Computing\CMP2089M Group Project\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.pdb
+C:\Users\user\Documents\Documents\HNC Computing\CMP2089M Group Project\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\bin\Debug\Message Encryption.exe
+C:\Users\user\Documents\Documents\HNC Computing\CMP2089M Group Project\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\bin\Debug\Message Encryption.pdb
+C:\Users\user\Documents\Documents\HNC Computing\CMP2089M Group Project\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message_Encryption.encryptionWindow.resources
+C:\Users\user\Documents\Documents\HNC Computing\CMP2089M Group Project\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message_Encryption.LoginBox.resources
+C:\Users\user\Documents\Documents\HNC Computing\CMP2089M Group Project\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message_Encryption.NewUserBox.resources
+C:\Users\user\Documents\Documents\HNC Computing\CMP2089M Group Project\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message_Encryption.Properties.Resources.resources
+C:\Users\user\Documents\Documents\HNC Computing\CMP2089M Group Project\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.csproj.GenerateResource.Cache

@@ -27,6 +27,7 @@ namespace Message_Encryption
 
         private void confirmLogin_Click(object sender, EventArgs e)
         {
+            this.Hide();
             mainProgram.Show();  
         }
 

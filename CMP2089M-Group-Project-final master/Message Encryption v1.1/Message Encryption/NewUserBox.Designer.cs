@@ -40,27 +40,27 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(131, 49);
+            this.textBox1.Location = new System.Drawing.Point(116, 49);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(156, 20);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(131, 84);
+            this.textBox2.Location = new System.Drawing.Point(116, 84);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(156, 20);
             this.textBox2.TabIndex = 1;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(131, 113);
+            this.textBox3.Location = new System.Drawing.Point(116, 113);
             this.textBox3.Name = "textBox3";
             this.textBox3.PasswordChar = '*';
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.Size = new System.Drawing.Size(156, 20);
             this.textBox3.TabIndex = 2;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -96,7 +96,7 @@
             // 
             // loGin
             // 
-            this.loGin.Location = new System.Drawing.Point(131, 154);
+            this.loGin.Location = new System.Drawing.Point(197, 154);
             this.loGin.Name = "loGin";
             this.loGin.Size = new System.Drawing.Size(75, 23);
             this.loGin.TabIndex = 6;
@@ -106,7 +106,7 @@
             // 
             // stopLogin
             // 
-            this.stopLogin.Location = new System.Drawing.Point(131, 183);
+            this.stopLogin.Location = new System.Drawing.Point(116, 154);
             this.stopLogin.Name = "stopLogin";
             this.stopLogin.Size = new System.Drawing.Size(75, 23);
             this.stopLogin.TabIndex = 7;
