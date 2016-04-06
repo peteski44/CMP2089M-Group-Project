@@ -13,6 +13,7 @@ namespace Message_Encryption
     public partial class encryptionWindow : Form
     {
 
+        #region Box Controls 1
         public encryptionWindow()
         {
             InitializeComponent();
@@ -27,7 +28,9 @@ namespace Message_Encryption
         {
 
         }
+        #endregion
 
+        #region Plain Text Box Controls
         private void loadTextFile_Click(object sender, EventArgs e)
         {
             //Set the parameters of the Open File Dialog
@@ -55,12 +58,16 @@ namespace Message_Encryption
                 messageBox.SaveFile(fileSave.FileName, RichTextBoxStreamType.PlainText);
             }
         }
+        #endregion
 
+        #region Close Window
         private void closeWindow_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+        #endregion
 
+        #region Encrypted Text Box Controls
         private void loadTextFile2_Click(object sender, EventArgs e)
         {
             //Set parameters of the OpenFileDialog
@@ -88,30 +95,30 @@ namespace Message_Encryption
                 encryptedMessageBox.SaveFile(encToTextFile.FileName, RichTextBoxStreamType.PlainText);
             }
         }
+        #endregion
 
+        #region Encrypt Function
         private void encryptText_Click(object sender, EventArgs e)
         {
-            //Array plainArray = messageBox.Text.ToArray();
-            //encryptedMessageBox.Clear();
-            //foreach (char myChar in plainArray)
-            //{
-            //    encryptedMessageBox.AppendText(myChar.ToString());
-            //}
             //Clear the Encrypted Text Box
             encryptedMessageBox.Clear();
 
             //Move text from message box to string
             string pTxt = messageBox.Text.ToLower();
 
+            //Declare input list
             List<char> pTxtList = new List<char>();
 
+            //Move text from string in to the list
             foreach (char c in pTxt)
             {
                 pTxtList.Add(c);
             }
 
+            //Declare output list
             List<char> eTxtList = new List<char>();
 
+            //Run Switch/Case to encrypt plain text
             for (int i = 0; i < pTxtList.Count; i++)
             {
                 switch (pTxtList[i])
@@ -288,29 +295,42 @@ namespace Message_Encryption
                         pTxtList[i] = 'e';
                         break;
                 }
+
+                //Place changed characters into encrypted list
                 eTxtList.Add(pTxtList[i]);
 
             }
 
+            //Move characters in encrypted list to string.
             string eTxt = string.Join("", eTxtList.ToArray());
+
+            //Display changed text into encrypted text box.
             encryptedMessageBox.Text = eTxt;
         }
+        #endregion
 
+        #region
         private void decryptText_Click(object sender, EventArgs e)
         {
+            //Clear the Plain Text Box
             messageBox.Clear();
 
+            //Move text from message box to string
             string eTxt = encryptedMessageBox.Text.ToLower();
 
+            //Declare input list
             List<char> eTxtList = new List<char>();
 
+            //Move text from string in to the list
             foreach (char c in eTxt)
             {
                 eTxtList.Add(c);
             }
 
+            //Declare output list
             List<char> pTxtList = new List<char>();
 
+            //Run Switch/Case to decrypt encrypted text
             for (int i = 0; i < eTxtList.Count; i++)
             {
                 switch (eTxtList[i])
@@ -487,23 +507,33 @@ namespace Message_Encryption
                         eTxtList[i] = '9';
                         break;
                 }
+                //Place changed characters into decrypted list
                 pTxtList.Add(eTxtList[i]);
             }
-
+            
+            //Move characters in encrypted list to string.
             string pTxt = string.Join("", pTxtList.ToArray());
+
+            //Display changed text into plain text box.
             messageBox.Text = pTxt;
         }
+        #endregion
 
+        #region BOx Control 2
         private void encryptedMessageBox_TextChanged(object sender, EventArgs e)
         {
 
         }
+        #endregion
 
+        #region Clear Text Boxes
         private void clearAllText_Click(object sender, EventArgs e)
         {
+            //Clear all text boxes
             messageBox.Clear();
             encryptedMessageBox.Clear();
-            
+
         }
+        #endregion
     }
 }

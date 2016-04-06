@@ -52,3 +52,15 @@ E:\CMP2089M - Group Project\CMP2089M-Group Project Master v1.1\CMP2089M-Group-Pr
 E:\CMP2089M - Group Project\CMP2089M-Group Project Master v1.1\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.csproj.GenerateResource.Cache
 E:\CMP2089M - Group Project\CMP2089M-Group Project Master v1.1\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\bin\Debug\Message Encryption.exe
 E:\CMP2089M - Group Project\CMP2089M-Group Project Master v1.1\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\bin\Debug\Message Encryption.pdb
+C:\Users\James\Desktop\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.exe
+C:\Users\James\Desktop\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.pdb
+C:\Users\James\Desktop\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\bin\Debug\Message Encryption.exe
+C:\Users\James\Desktop\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\bin\Debug\Message Encryption.pdb
+C:\Users\James\Desktop\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.csprojResolveAssemblyReference.cache
+C:\Users\James\Desktop\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message_Encryption.encryptionWindow.resources
+C:\Users\James\Desktop\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message_Encryption.LoginBox.resources
+C:\Users\James\Desktop\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message_Encryption.NewUserBox.resources
+C:\Users\James\Desktop\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message_Encryption.Properties.Resources.resources
+C:\Users\James\Desktop\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.csproj.GenerateResource.Cache
+C:\Users\pday2\Desktop\CMP2089M-Group-Project-master\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.exe
+C:\Users\pday2\Desktop\CMP2089M-Group-Project-master\CMP2089M-Group-Project-master\CMP2089M-Group-Project-final master\Message Encryption v1.1\Message Encryption\obj\x86\Debug\Message Encryption.pdb
