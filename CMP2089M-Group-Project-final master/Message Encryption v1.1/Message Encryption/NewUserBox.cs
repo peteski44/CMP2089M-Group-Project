@@ -11,11 +11,14 @@ namespace Message_Encryption
 {
     public partial class NewUserBox : Form
     {
+        #region Initialise Form
         public NewUserBox()
         {
             InitializeComponent();
         }
+        #endregion
 
+        #region Username Input
         private void newUserName_Click(object sender, EventArgs e)
         {
 
@@ -25,7 +28,9 @@ namespace Message_Encryption
         {
 
         }
+        #endregion
 
+        #region Password Input
         private void newPassWord_Click(object sender, EventArgs e)
         {
 
@@ -35,7 +40,9 @@ namespace Message_Encryption
         {
 
         }
+        #endregion
 
+        #region Confrim Password Input
         private void reconfirmPassWord_Click(object sender, EventArgs e)
         {
 
@@ -45,7 +52,9 @@ namespace Message_Encryption
         {
 
         }
+        #endregion
 
+        #region Click Event Controls
         private void loGin_Click(object sender, EventArgs e)
         {
 
@@ -55,5 +64,6 @@ namespace Message_Encryption
         {
             this.Close();
         }
+        #endregion
     }
 }
